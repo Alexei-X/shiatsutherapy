@@ -1,0 +1,178 @@
+*{
+	outline: none;
+	-webkit-box-sizing:border-box;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+li{
+	margin: 10px;
+}
+
+ul{
+	list-style: none;
+}
+
+@media screen and (max-width: 3000px) {
+	body{
+		background: url(images/background.jpg) no-repeat center fixed;
+		background-size: cover;
+		margin: 0%;
+	}
+
+	.header{
+		position: absolute;
+		height: 10%;
+		width: 100%;
+		background-color: rgb(222, 202, 177);
+		margin: 0%;
+		font-family: Courier New, monospace;
+		font-style: italic;
+		font-size: 20px;
+
+	}
+
+	.socialMedia{
+		position: absolute;
+		top: 0%;
+		left: 87%;
+	}
+
+	#title{
+		text-align: center;
+	}
+
+	#link{
+		position: absolute;
+		top: 10%;
+	}
+
+	.presentation{
+		position: absolute;
+		top: 20%;
+		width: 25%;
+		margin-left: 3%;
+		background-color: rgba(255, 255, 255, 0.8);
+		border-radius: 5%;
+	}
+
+	#portrait{
+		border-top-left-radius: 5%;
+		border-top-right-radius: 5%;
+	}
+
+	.presentationText{
+		font-size: 135%;
+		margin: 5%;
+		font-family: Georgia, serif;
+		text-align: justify;
+	}
+
+	.services{
+		position: absolute;
+		width: 25%;
+		margin-left: 32%;
+		background-color: rgba(255, 255, 255, 0.8);
+		top: 40%;
+		border-radius: 5%;
+	}
+
+	#serviceTitle{
+		text-align: center;
+		font-size: 320%;
+	}
+
+	.servicesText{
+		font-size: 145%;
+		text-align: justify;
+		margin: 5%;
+	}
+
+	.prices{
+		position: absolute;
+		width: 17%;
+		left: 80%;
+		top: 15%;
+		border-radius: 5%;
+		background-color: rgba(255, 255, 255, 0.8);
+	}
+
+	#pricesTitle{
+		text-align: center;
+	}
+
+	.pricesText{
+		font-size: 20px;
+	}
+
+	.contact{
+		position: absolute;
+		width: 23%;
+		left: 75%;
+		top: 75%;
+		background-color: rgba(255, 255, 255, 0.8);
+		border-radius: 5%;
+	}
+
+	#contactTitle{
+		text-align: center;
+	}
+
+	.phoneNumber{
+		font-size: 140%;
+	}
+}
+
+@media screen and (width: 1440px) {
+	body{
+		background-image: url(images/background.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin: 0%;
+	}
+}
+@media screen and (max-width: 800px) {
+	body{
+		background-image: url(images/backgroundphone.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin: 0%;
+	}
+	.header{
+		height: 80px;
+		width: 100%;
+		background-color: #D9FFA3;
+	}
+
+	.socialMedia{
+		position: initial;
+		text-align: right;
+	}
+	.presentation{
+		width: 70%;
+		left: 14%;
+	}
+
+	.services{
+		width: 70%;
+		top: 90%;
+		margin-left: 0%;
+		left: 15%;
+	}
+
+	.prices{
+		width: 70%;
+		top: 150%;
+		left: 15%;
+	}
+
+	.contact{
+		width: 70%;
+		top: 172%;
+		left: 15%;
+	}
+}
