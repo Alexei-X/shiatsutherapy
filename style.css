@@ -34,7 +34,7 @@ body{
 	height: 100px;
 	width: 100%;
 	margin: 0%;
-	font-family: Trebuchet MS, sans-serif;
+	font-family: 'Nunito', sans-serif;
 	font-style: italic;
 	font-size: 20px;
 	}
@@ -44,7 +44,7 @@ body{
 	}
 	.socialMedia{
 		text-align: right;
-		margin-top: -55px;
+		margin-top: -65px;
 	}
 	.link{
 		position: absolute;
@@ -61,7 +61,7 @@ body{
 	.presentationText{
 		margin-top: -240px;
 		margin-left: 400px;
-		font-size: 1.7vw;
+		font-size: 1.3vw;
 		font-family: Georgia, serif;
 		text-align: justify;
 		padding: 10px;
@@ -70,10 +70,10 @@ body{
 		border-radius: 5%;
 	}
 	.services{
-		height:  500px;
+		height:  550px;
 		width: 100%;
 		background-color: rgba(255, 255, 255, 0.6);
-		margin-top: 200px;
+		margin-top: 190px;
 		border-radius: 5%;
 	}
 	#serviceTitle{
@@ -144,18 +144,32 @@ body{
 	.header{
 		background-color: #D9FFA3;
 	}
+	.presentation{
+		width: 80%;
+		height: 30%;
+		left: 14%;
+		top: 30%;
+		margin-left: 75px;
+	}
 	.presentationText{
-		font-size: 2vw;
-		margin-left: 400px;
+		margin-left: 10px;
+		margin-top: 0px;
+		font-size: 4vw;
+	}
+	#portrait{
+		width: 100%;
 	}
 	.services{
-		height: 400px;
+		height: auto;
+		padding-bottom: 20px;
+
 	}
 	#serviceTitle{
 		font-size: 5vw;
 	}
 	.servicesText{
 		font-size: 3vw;
+		margin-top: 20px;
 	}
 	.prices{
 		height: 300px;
