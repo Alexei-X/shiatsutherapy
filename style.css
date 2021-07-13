@@ -135,15 +135,21 @@ ul{
 		margin: 0%;
 	}
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1050px) {
 	body{
 		background-image: url(images/backgroundphone.jpg);
 		background-repeat: no-repeat;
 		background-size: cover;
 		margin: 0%;
 	}
+	#title{
+		font-size: 150%;
+	}
+	#link{
+		font-size: 80%;
+	}
 	.header{
-		height: 80px;
+		height: 70px;
 		width: 100%;
 		background-color: #D9FFA3;
 	}
@@ -155,24 +161,25 @@ ul{
 	.presentation{
 		width: 70%;
 		left: 14%;
+		top: 30%;
 	}
 
 	.services{
 		width: 70%;
-		top: 90%;
+		top: 150%;
 		margin-left: 0%;
 		left: 15%;
 	}
 
 	.prices{
 		width: 70%;
-		top: 150%;
+		top: 250%;
 		left: 15%;
 	}
 
 	.contact{
 		width: 70%;
-		top: 172%;
+		top: 290%;
 		left: 15%;
 	}
 }
